@@ -2,8 +2,8 @@
 #include<gl/GL.h>
 #include<gl/GLU.h>
 
-void MyDisplay() {	//ต๐ฝบวรทนภฬ ฤÝน้วิผ๖
-	glClear(GL_COLOR_BUFFER_BIT);	//1.GL ป๓ลยบฏผ๖ ผณมค
+void MyDisplay() {	//๋””์คํ”๋ ์ด ์ฝ๋ฐฑํ•จ์
+	glClear(GL_COLOR_BUFFER_BIT);	//1.GL ์ํ๋ณ€์ ์ค์ •
 	glColor3f(0.5, 0.5, 0.5);
 	glBegin(GL_POLYGON);
 		glVertex3f(-0.5, -0.5, 0.0);
